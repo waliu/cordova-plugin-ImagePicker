@@ -1,4 +1,4 @@
-# cordova-plugin-image-picker
+# cordova-plugin-image-picker-pro
 
 Use Skills of English Version
 [EnglishVersionDocument](https://github.com/waliu/cordova-plugin-image-picker-pro/tree/master/doc/us)
