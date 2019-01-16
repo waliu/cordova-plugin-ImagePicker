@@ -45,9 +45,14 @@ Function
 
 ## Installation
 
-
-
-- `cordova plugin add cordova-plugin-image-picker-pro`
+```
+ cordova plugin add cordova-plugin-image-picker-pro
+ ```
+ or
+ 
+ ```
+ cordova plugin add https://github.com/giantss/cordova-plugin-ImagePicker.git
+ ```
 
 
 
