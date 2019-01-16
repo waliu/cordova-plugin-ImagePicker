@@ -47,7 +47,7 @@
 |:---------------:|:------------:|
 | <img src="./screenshots/android.png" width="270px" height="480"> | <img src="./screenshots/ios.jpg" width="270px" height="480"> |
 
-## 使用方式
+## JS使用方式
 [一个粗糙的 cordova demo](https://github.com/giantss/ImagePickerDemo)
 
 ```javascript
