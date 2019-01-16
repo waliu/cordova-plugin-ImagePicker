@@ -19,16 +19,15 @@
 -->
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-           id="cordova-plugin-image-picker-pro"
-      version="1.1.6">
+           id="cordova-plugin-image-picker-chenyu"
+      version="1.1.8">
 
     <name>ImagePicker</name>
     <description>Cordova ImagePicker Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,ImagePicker</keywords>
-    <repo>https://github.com/giantss/cordova-plugin-ImagePicker.git</repo>
-    <issue>https://github.com/giantss/cordova-plugin-ImagePicker/issues</issue>
-
+    <repo>https://github.com/waliu/cordova-plugin-image-picker-pro</repo>
+    <issue>https://github.com/waliu/cordova-plugin-image-picker-pro/issues</issue>
     <!--require cordova version -->
     <engines>
         <engine name="cordova" version=">=6.0.0" />

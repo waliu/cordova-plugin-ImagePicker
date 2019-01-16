@@ -1,10 +1,13 @@
-# cordova-plugin-image-picker-pro
+# cordova-plugin-image-picker-chenyu
 
 Use Skills of English Version
 [EnglishVersionDocument](https://github.com/waliu/cordova-plugin-image-picker-pro/tree/master/doc/us)
 
 非常感谢[南尘](https://github.com/nanchen2251)和 [banchichen](https://github.com/banchichen) 提供的源码支持
-多点star✨开源不容易，谢谢。cordova交流群：273613165
+
+本插件 fork 与 [giantss](https://github.com/giantss/cordova-plugin-ImagePicker)
+
+作者的cordova交流群：273613165
 
 一个支持多选，相册实现了拍照、预览、图片压缩等功能
 
@@ -25,7 +28,7 @@ Use Skills of English Version
 ## 安装
 
  ```
- cordova plugin add cordova-plugin-image-picker-pro
+ cordova plugin add cordova-plugin-image-picker-chenyu
  ```
  
  或者
