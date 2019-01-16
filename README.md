@@ -22,7 +22,7 @@ Use Skills of English Version
 - Cordova-Android >= 6.0.0
 - Cordova-iOS >= 4.0.0
 
-## 安装 (Installation)
+## 安装
 
  ```
  cordova plugin add cordova-plugin-image-picker-pro
