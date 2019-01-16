@@ -41,13 +41,13 @@
 ## iOS 视频演示
 - [点击查看视频(优酷)](http://v.youku.com/v_show/id_XMjg0NDg0NTU4OA==.html)
 
-## 效果图(Finished product drawing)
+## 效果图
 
 | Android         | iOS          |
 |:---------------:|:------------:|
 | <img src="./screenshots/android.png" width="270px" height="480"> | <img src="./screenshots/ios.jpg" width="270px" height="480"> |
 
-## 使用方式(Usage mode)
+## 使用方式
 [一个粗糙的 cordova demo](https://github.com/giantss/ImagePickerDemo)
 
 ```javascript
@@ -84,9 +84,9 @@ ImagePicker.getPictures(function(result) {
 ionic 中使用本插件，需要声明： `declare let ImagePicker:any`
 
 
-## 参数含义(Parameter implication)
+## 参数含义
 
-| 配置参数(parameter) | 参数含义 (Parameter implication)                  |
+| 配置参数 | 参数含义                |
 |:------------------:|:-------------------------:|
 | maximumImagesCount | 多选限制数量，默认为9       |
 | width              | 设置图片的width，默认为1920  |
