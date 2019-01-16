@@ -179,7 +179,7 @@ Cordova plugin add cordova-android-support-gradle-release -- variable ANDROID_SU
 
 
 
-The `{required version} `value is similar to `25. +,26. +,27. +`.
+The `{required version} `value is similar to `25. +`,`26. +`,`27. +`.
 
 
 
