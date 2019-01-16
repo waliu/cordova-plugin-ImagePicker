@@ -63,7 +63,7 @@ ImagePicker.getPictures(function(result) {
 });
 ```
 
-返回结果如下(The results are as follows)：
+返回结果如下：
 ```
 {
     "images": [{
