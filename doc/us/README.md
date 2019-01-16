@@ -78,81 +78,44 @@ Be careful: Android build, please look at it. [android Matters needing attention
 
 Finished product drawing
 
-
-
-Android | iOS |
-
-|:------------------------::::--------------------------------------------------------------------------------------------------------------
-
-<img src=". / screenshots/android.png" width= "270px" height= "480"> <img src=". / screenshots/ios.jpg" width= "270px" height= "480"> |
-
-
+| Android         | iOS          |
+|:---------------:|:------------:|
+| <img src="../../screenshots/android.png" width="270px" height="480"> | <img src="../../screenshots/ios.jpg" width="270px" height="480"> |
 
 Usage mode
 
 [A rough Cordova demo] (https://github.com/giantss/ImagePickerDemo)
 
-
-
 ```javascript
-
-ImagePicker. getPictures (function (result) {
-
-Alert (JSON. stringify (result);
-
-}, function (err) {
-
-Alert (ERR);
-
+ImagePicker.getPictures(function(result) {
+    alert(JSON.stringify(result));
+}, function(err) {
+    alert(err);
 }, {
-
-Maximum Images Count: 9,
-
-Width: 1920,
-
-Height: 1440,
-
-Quality: 100
-
-};
-
-` ` ` `
-
-
-
+    maximumImagesCount : 9,
+    width : 1920,
+    height : 1440,
+    quality : 100
+});
+```
 The results are as follows:
 
-` ` ` `
-
+```
 {
-
-"Images": [
-
-"Path": "/ data/user/0/com.pushsoft.im2/cache/ImagePicker/152783817455118.jpg"
-
-"Width": 720,
-
-"Height": 1280,
-
-"Size": 104871// file size (in bytes)
-
-}, {
-
-"Path": "/ data/user/0/com.pushsoft.im2/cache/ImagePicker/152783817464525.jpg"
-
-"Width": 720,
-
-"Height": 1280,
-
-"Size": 109873
-
-]
-
-"Is Origin": false // whether or not the original graph
-
+    "images": [{
+        "path": "/data/user/0/com.pushsoft.im2/cache/ImagePicker/152783817455118.jpg",
+        "width": 720,
+        "height": 1280,
+        "size": 104871 // 文件体积(单位：字节)
+    }, {
+        "path": "/data/user/0/com.pushsoft.im2/cache/ImagePicker/152783817464525.jpg",
+        "width": 720,
+        "height": 1280,
+        "size": 109873
+    }],
+    "isOrigin": false // 是否原图
 }
-
-` ` ` `
+```
 
 
 
@@ -165,17 +128,12 @@ Parameter implication
 
 
 
-Configuration parameter | Parameter implication |
-
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Maximum ImagesCount | Multiple Selection Limited Quantity, default 9 |
-
-Width | Set the width of the picture to 1920 by default |
-
-Height | Set the height of the picture to 1440 by default |
-
-Quality | Picture quality default 80 |
+| configuration parameter | Parameter implication                  |
+|:------------------:|:-------------------------:|
+| maximumImagesCount | Multiple Selection Limited Quantity, default 9     |
+| width              | Set the width of the picture to 1920 by default   |
+| height             | Set the height of the picture to 1440 by default |
+| quality            | Picture quality default 80        |
 
 
 
