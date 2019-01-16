@@ -46,7 +46,7 @@ Function
 ## Installation
 
 ```
- cordova plugin add cordova-plugin-image-picker-pro
+ cordova plugin add cordova-plugin-image-picker-chenyu
  ```
  or
  
