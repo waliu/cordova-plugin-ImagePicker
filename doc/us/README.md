@@ -1,4 +1,4 @@
-# cordova-plugin-image-picker
+# cordova-plugin-image-picker-pro
 
 
 
@@ -34,7 +34,7 @@ Function
 
 
 
-Requirements for Installation
+## Requirements for Installation
 
 
 
@@ -46,7 +46,7 @@ Requirements for Installation
 
 
 
-Installation
+## Installation
 
 
 
@@ -64,13 +64,13 @@ Be careful: Android build, please look at it. [android Matters needing attention
 
 
 
-# Android Video Demo
+## Android Video Demo
 
 - [Click View Video (Youku)] (http://v.youku.com/v_show/id_XMjg0NDg0NDIyMA==.html)
 
 
 
-# iOS Video Demo
+## iOS Video Demo
 
 - [Click View Video (Youku)] (http://v.youku.com/v_show/id_XMjg0NDg0NTU4OA==.html)
 
@@ -82,7 +82,7 @@ Finished product drawing
 |:---------------:|:------------:|
 | <img src="../../screenshots/android.png" width="270px" height="480"> | <img src="../../screenshots/ios.jpg" width="270px" height="480"> |
 
-Usage mode
+## Usage mode
 
 [A rough Cordova demo] (https://github.com/giantss/ImagePickerDemo)
 
@@ -98,7 +98,7 @@ ImagePicker.getPictures(function(result) {
     quality : 100
 });
 ```
-The results are as follows:
+## The results are as follows:
 
 ```
 {
@@ -119,12 +119,12 @@ The results are as follows:
 
 
 
-To use this plug-in in ionic, you need to declare: `declare let Image Picker: any'.
+## To use this plug-in in ionic, you need to declare: `declare let Image Picker: any'.
 
 
 
 
-Parameter implication
+## Parameter implication
 
 
 
@@ -137,7 +137,7 @@ Parameter implication
 
 
 
-Note:
+## Note:
 
 
 
@@ -163,25 +163,20 @@ Note:
 
 - If build reports the following error
 
-` ` ` `
+
 
 Error: resource and roid: attr/dialog Corner Radius not found
 
 Error: resource and roid: attr/font Variation Settings not found
 
 Error: resource and roid: attr/ttcIndex not found
-
-` ` ` `
-
-
-
-Use [cordova-android-support-gradle-release] (https://github.com/dpa99c/cordova-android-support-gradle-release), the Android Support library version of the plug-in unification project:
-
-` ` ` `
+```
+    Use [cordova-android-support-gradle-release] (https://github.com/dpa99c/cordova-android-support-gradle-release), the Android Support library version of the plug-in unification project:
+```
 
 Cordova plugin add cordova-android-support-gradle-release -- variable ANDROID_SUPPORT_VERSION={required version}
 
-` ` ` `
+```
 
 The `{required version} `value is similar to `25. +', `26. +', `27. +'.
 
@@ -197,8 +192,6 @@ Because the lower version of Cordova-Android uses the lower version of Gradle an
 
 - If the build is still unsuccessful
 
-` ` ` `
-
-$cordova platform RM Android
-
-` ` ` `
+```
+  $cordova platform rm Android
+```
