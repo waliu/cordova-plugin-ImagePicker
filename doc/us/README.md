@@ -2,10 +2,7 @@
 
 
 
-Thank you very much for the source support provided by Nandun (https://github.com/nanchen2251) and Banchichen (https://github.com/banchichen).
-
-Open source is not easy, thank you. Cordova Exchange Group: 273613165
-
+Thank you very much for the source support provided by [Nandun](https://github.com/nanchen2251) and [Banchichen](https://github.com/banchichen).
 
 
 Thank you very much for the source support provided by Southern dust and Banchichen.
