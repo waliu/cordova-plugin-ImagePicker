@@ -1,5 +1,3 @@
-# cordova-plugin-image-picker-chenyu
-
 Use Skills of English Version
 [EnglishVersionDocument](https://github.com/waliu/cordova-plugin-image-picker-pro/tree/master/doc/us)
 
