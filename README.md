@@ -3,20 +3,18 @@
 非常感谢[南尘](https://github.com/nanchen2251)和 [banchichen](https://github.com/banchichen) 提供的源码支持
 多点star✨开源不容易，谢谢。cordova交流群：273613165
 
-Thank you very much for the source support provided by Southern dust and Banchichen.
 
 一个支持多选，相册实现了拍照、预览、图片压缩等功能
 
-This is a picture selector, he can preview the selected picture. He can also take pictures.
 
-## 功能 (function)
+## 功能
 
-- 选择图片(Select pictures)
-- 拍照(Photograph)
-- 预览选中的图片(Preview selected pictures)
-- 图片压缩(Picture compression)
+- 选择图片
+- 拍照
+- 预览选中的图片
+- 图片压缩
 
-## 安装要求(Requirements for Installation)
+## 安装要求
 
 - Cordova Version >= 6.0.0
 - Cordova-Android >= 6.0.0
@@ -29,8 +27,6 @@ This is a picture selector, he can preview the selected picture. He can also tak
 
 注意：Android build ，见 [android注意事项](#android注意事项)。
 
-Be careful: Android build , Please look at it.[android Matters needing attention](#android Matters needing attention)
-
 
 ## Android 视频演示
 - [点击查看视频(优酷)](http://v.youku.com/v_show/id_XMjg0NDg0NDIyMA==.html)
@@ -38,13 +34,13 @@ Be careful: Android build , Please look at it.[android Matters needing attention
 ## iOS 视频演示
 - [点击查看视频(优酷)](http://v.youku.com/v_show/id_XMjg0NDg0NTU4OA==.html)
 
-## 效果图(Finished product drawing)
+## 效果图
 
 | Android         | iOS          |
 |:---------------:|:------------:|
 | <img src="./screenshots/android.png" width="270px" height="480"> | <img src="./screenshots/ios.jpg" width="270px" height="480"> |
 
-## 使用方式(Usage mode)
+## 使用方式
 [一个粗糙的 cordova demo](https://github.com/giantss/ImagePickerDemo)
 
 ```javascript
@@ -60,35 +56,35 @@ ImagePicker.getPictures(function(result) {
 });
 ```
 
-返回结果如下(The results are as follows)：
+返回结果如下
 ```
 {
     "images": [{
         "path": "/data/user/0/com.pushsoft.im2/cache/ImagePicker/152783817455118.jpg",
         "width": 720,
         "height": 1280,
-        "size": 104871 // 文件体积(单位：字节) (file size(Unit: bytes))
+        "size": 104871 // 文件体积(单位：字节)
     }, {
         "path": "/data/user/0/com.pushsoft.im2/cache/ImagePicker/152783817464525.jpg",
         "width": 720,
         "height": 1280,
         "size": 109873
     }],
-    "isOrigin": false // 是否原图(Original graph)
+    "isOrigin": false // 是否原图
 }
 ```
 
 ionic 中使用本插件，需要声明： `declare let ImagePicker:any`
 
 
-## 参数含义(Parameter implication)
+## 参数含义
 
-| 配置参数(parameter) | 参数含义 (Parameter implication)                  |
+| 配置参数 | 参数含义                  |
 |:------------------:|:-------------------------:|
-| maximumImagesCount | 多选限制数量，默认为9(Multiple Selection Limited Quantity, default 9)        |
-| width              | 设置图片的width，默认为1920 (Set the width of the picture to 1920 by default)  |
-| height             | 设置图片的height，默认为1440 (Set the height of the picture to 1440 by default)  |
-| quality            | 图片质量 默认80 (Picture quality default 80)          |
+| maximumImagesCount | 多选限制数量，默认为9       |
+| width              | 设置图片的width，默认为1920   |
+| height             | 设置图片的height，默认为1440 |
+| quality            | 图片质量 默认80        |
 
 ### 注意：
 
@@ -98,7 +94,6 @@ ionic 中使用本插件，需要声明： `declare let ImagePicker:any`
 - 运行时，选图界面上有“原图”单选按钮，选上之后，返回的图片是未压缩的原图
 
 ## android注意事项
-## android Matters needing attention
 
 - 先移除安装过的旧版插件
 
