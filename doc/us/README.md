@@ -192,6 +192,10 @@ Because the lower version of Cordova-Android uses the lower version of Gradle an
 
 - If the build is still unsuccessful
 
-```
-  $cordova platform rm Android
-```
+    ```
+    $ cordova platform rm android
+    ```
+    or
+    ```
+    $ cordova platform rm ios
+    ```
