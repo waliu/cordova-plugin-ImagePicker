@@ -30,7 +30,7 @@ Function
 
 - Preview selected pictures
 
-Picture compression
+- Picture compression
 
 
 
@@ -55,7 +55,7 @@ Installation
 
 
 
-Note: Android build, see [Android Notes] (#Android Notes).
+Note: Android build, see [Android Matters needing attention] (#Android Matters needing attention).
 
 
 
@@ -151,9 +151,9 @@ Note:
 
 
 
-Notes for # Android
 
-# # Android Matters needing attention
+
+## Android Matters needing attention
 
 
 
