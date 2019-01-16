@@ -66,13 +66,13 @@ Be careful: Android build, please look at it. [android Matters needing attention
 
 ## Android Video Demo
 
-- [Click View Video (Youku)] (http://v.youku.com/v_show/id_XMjg0NDg0NDIyMA==.html)
+- [ClickViewVideo(Youku)](http://v.youku.com/v_show/id_XMjg0NDg0NDIyMA==.html)
 
 
 
 ## iOS Video Demo
 
-- [Click View Video (Youku)] (http://v.youku.com/v_show/id_XMjg0NDg0NTU4OA==.html)
+- [ClickViewVideo(Youku)](http://v.youku.com/v_show/id_XMjg0NDg0NTU4OA==.html)
 
 
 
@@ -84,7 +84,7 @@ Finished product drawing
 
 ## Usage mode
 
-[A rough Cordova demo] (https://github.com/giantss/ImagePickerDemo)
+[ARoughCordovaDemo](https://github.com/giantss/ImagePickerDemo)
 
 ```javascript
 ImagePicker.getPictures(function(result) {
