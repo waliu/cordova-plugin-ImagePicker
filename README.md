@@ -14,8 +14,6 @@
 
 一个支持多选，相册实现了拍照、预览、图片压缩等功能
 
-This is a picture selector, he can preview the selected picture. He can also take pictures.
-
 ## 功能 
 
 - 选择图片
@@ -72,14 +70,14 @@ ImagePicker.getPictures(function(result) {
         "path": "/data/user/0/com.pushsoft.im2/cache/ImagePicker/152783817455118.jpg",
         "width": 720,
         "height": 1280,
-        "size": 104871 // 文件体积(单位：字节) (file size(Unit: bytes))
+        "size": 104871 // 文件体积(单位：字节) 
     }, {
         "path": "/data/user/0/com.pushsoft.im2/cache/ImagePicker/152783817464525.jpg",
         "width": 720,
         "height": 1280,
         "size": 109873
     }],
-    "isOrigin": false // 是否原图(Original graph)
+    "isOrigin": false // 是否原图
 }
 ```
 
