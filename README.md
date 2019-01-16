@@ -5,7 +5,7 @@ Use Skills of English Version
 
 本插件 fork 与 [giantss](https://github.com/giantss/cordova-plugin-ImagePicker)
 
-作者的cordova交流群：273613165
+原作者的cordova交流群：273613165
 
 一个支持多选，相册实现了拍照、预览、图片压缩等功能
 
