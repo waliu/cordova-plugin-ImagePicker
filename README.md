@@ -1,4 +1,4 @@
-# cordova-plugin-image-picker
+# cordova-plugin-image-picker-pro
 
 感谢源码提供者:
 
