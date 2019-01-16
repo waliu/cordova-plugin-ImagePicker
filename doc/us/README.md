@@ -116,7 +116,21 @@ ImagePicker.getPictures(function(result) {
 
 
 
-## To use this plug-in in ionic, you need to declare: `declare let Image Picker: any'.
+## To use this plug-in in ionic2、ionic3,
+
+  ```
+  (<any>window).ImagePicker.getPictures((result) => {
+      alert(JSON.stringify(result));
+    }, (err) => {
+      alert(err);
+    }, {
+      maximumImagesCount: 9,
+      width: 1920,
+      height: 1440,
+      quality: 100
+    });
+    
+```
 
 
 
