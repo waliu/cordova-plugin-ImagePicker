@@ -199,3 +199,4 @@ Because the lower version of Cordova-Android uses the lower version of Gradle an
     ```
     $ cordova platform rm ios
     ```
+    Remove the old platform and add again
