@@ -76,7 +76,21 @@ ImagePicker.getPictures(function(result) {
 }
 ```
 
-ionic 中使用本插件，需要声明： `declare let ImagePicker:any`
+ionic2、ionic3 中使用本插件，需要声明：
+```
+  (<any>window).ImagePicker.getPictures((result) => {
+      alert(JSON.stringify(result));
+    }, (err) => {
+      alert(err);
+    }, {
+      maximumImagesCount: 9,
+      width: 1920,
+      height: 1440,
+      quality: 100
+    });
+    
+```
+
 
 
 ## 参数含义
