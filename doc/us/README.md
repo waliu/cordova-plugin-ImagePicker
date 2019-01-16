@@ -175,7 +175,7 @@ Error: resource and roid: attr/ttcIndex not found
    Use [cordova-android-support-gradle-release](https://github.com/dpa99c/cordova-android-support-gradle-release), the Android Support library version of the plug-in unification project:
 
 
-Cordova plugin add cordova-android-support-gradle-release -- variable ANDROID_SUPPORT_VERSION={required version}
+`Cordova plugin add cordova-android-support-gradle-release -- variable ANDROID_SUPPORT_VERSION={required version}`
 
 
 
