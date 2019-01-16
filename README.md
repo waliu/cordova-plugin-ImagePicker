@@ -25,6 +25,8 @@ Use Skills of English Version
 ## 安装 (Installation)
 
  - `cordova plugin add cordova-plugin-image-picker-pro`
+ 或者
+  - `cordova plugin add https://github.com/giantss/cordova-plugin-ImagePicker.git`
 
 
 注意：Android build ，见 [android注意事项](#android注意事项)。
