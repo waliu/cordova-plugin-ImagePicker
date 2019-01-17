@@ -83,7 +83,7 @@ ImagePicker.getPictures(function(result) {
 }
 ```
 
-ionic2、ionic3 中使用本插件，需要声明：
+ionic2、ionic3 中使用本插件：
 ```
   (<any>window).ImagePicker.getPictures((result) => {
       alert(JSON.stringify(result));
