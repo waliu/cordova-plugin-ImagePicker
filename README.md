@@ -26,12 +26,12 @@ Use Skills of English Version
 ## 安装
 
  ```
- cordova plugin add cordova-plugin-image-picker-chenyu
+ cordova plugin add cordova-plugin-photo-selection
  ```
  
  或者
  ```
- cordova plugin add https://github.com/giantss/cordova-plugin-ImagePicker.git
+   cordova plugin add https://github.com/waliu/cordova-plugin-photo-selection
  ```
 
 注意：Android build ，见 [android注意事项](#android注意事项)。
