@@ -46,12 +46,12 @@ Function
 ## Installation
 
 ```
- cordova plugin add cordova-plugin-image-picker-chenyu
+ cordova plugin add cordova-plugin-photo-selection
  ```
  or
  
  ```
- cordova plugin add https://github.com/giantss/cordova-plugin-ImagePicker.git
+ cordova plugin add https://github.com/waliu/cordova-plugin-photo-selection
  ```
 
 
